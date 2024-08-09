@@ -1,0 +1,14 @@
+function differOrange(data)
+{
+    let tw=0,
+    let dow=0;
+    for (const weight of data )
+    {
+        tw+=weight
+    }
+    let etw=data.length*data[0]
+    dow=tw-etw;
+    return dow
+}
+let n=Math.trunc(prompt("enter the no of orange"))
+let

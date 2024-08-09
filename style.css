@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+    gap: 1rem;
+}
+.logo > img{
+    height: 70%;
+    display: flex;
+    align-self: center;
+}
+.navbar{
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    padding: 0rem 10rem 0rem 2rem;
+    background-color: rgb(243, 237, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:rgba(80, 80, 80, 0.714) 0px 1px 15px;
+}
+#nav-location{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orange;
+}
+.nav-right{
+    display: flex;
+    gap: 10%;
+    color: grey;
+}
+.cards{
+    width: 14rem;
+    padding: 0.5rem;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+.cards:hover{
+    box-shadow:rgb(196, 181, 157) 0px 13.36px 8.896px, rgb(255, 255, 255) 0px -2px 1px;
+    background-color: antiquewhite;
+}
+.cards > img{
+    width: 100%;
+    height: 12rem;
+    border-radius: 5% 5% 0% 0%;
+}
+.crousal-card-up{
+    display: flex;
+    gap: 45%;
+}
+.resturant-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 13rem 0 13rem;
+}
+.crousal-card-up>h4:nth-child(2) {
+    background-color: rgb(35, 84, 35);
+    padding: 4px;
+    border-radius: 5px;
+    height: 100%;
+    color: white;
+}
+.crousal-card-up{
+    font-size: 15px;
+}
+.cards > h4{
+    font-size: 10px;
+    color: grey;
+}
+.footer{
+    height: 20vh;
+    margin-top: 2rem;
+    padding: 2rem 13rem 0 13rem;
+    background-color: black;
+    color: white;
+}
+.shimmer-cards{
+    margin-top: 1rem;
+    width: 14rem;
+    padding: 0.5rem;
+    border: 1px rgba(0, 0, 0, 0.212) solid;
+}
+.shimmer-image{
+    width: 100%;
+    height: 12rem;
+    border-radius: 5% 5% 0% 0%;
+    background-color: lightgrey;
+}
+.shimmer-crousal-card-up{
+    display: flex;
+    justify-content: space-between;
+}
+.shimmer-crousal-card-up > h4{
+    height: 1rem;
+    background-color: lightgray ;
+}
+.shimmer-crousal-card-up > h4:nth-child(1){
+    width: 40%;
+}
+.shimmer-crousal-card-up > h4:nth-child(2){
+    width: 20%;
+}
+.shimmer-cuisine{
+    background-color: lightgray;
+    height: 0.5rem;
+}
